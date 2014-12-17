@@ -1,0 +1,22 @@
+{
+  "name": "squares-of-max",
+  "version": "1.0.0",
+  "description": "JavaScript function to count sum of squares of two max numbers.",
+  "main": "squaresOfMax.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js-lessons/squares-of-max.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js-lessons/squares-of-max/issues"
+  },
+  "homepage": "https://github.com/js-lessons/squares-of-max",
+  "devDependencies" : {
+    "jasmine-node" : "latest"
+  }
+}
