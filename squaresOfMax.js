@@ -1,5 +1,5 @@
 function squaresOfMax(a, b, c) {
-  // Your code goes here
+  return (c <= b && c <= a) ? a*a + b*b : squaresOfMax(c, a, b);
 }
 
 module.exports = squaresOfMax;
